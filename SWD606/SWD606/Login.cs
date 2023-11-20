@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace SWD606
 {
-    //start abcd
+    //start
     public partial class Login : Form
     {
         public Login()
