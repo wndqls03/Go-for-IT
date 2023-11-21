@@ -61,6 +61,7 @@
             this.Controls.Add(this.emp_Btn);
             this.Name = "Start_page";
             this.Text = "Start_page";
+            this.Load += new System.EventHandler(this.Start_page_Load);
             this.ResumeLayout(false);
 
         }

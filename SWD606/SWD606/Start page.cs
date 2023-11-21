@@ -32,5 +32,10 @@ namespace SWD606
             administrator.ShowDialog();
             this.Close();
         }
+
+        private void Start_page_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
