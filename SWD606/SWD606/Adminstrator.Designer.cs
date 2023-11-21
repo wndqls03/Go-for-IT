@@ -104,6 +104,7 @@
             this.access_Btn.TabIndex = 5;
             this.access_Btn.Text = "Access";
             this.access_Btn.UseVisualStyleBackColor = false;
+            this.access_Btn.Click += new System.EventHandler(this.access_Btn_Click);
             // 
             // showPass_Check
             // 
@@ -115,6 +116,7 @@
             this.showPass_Check.TabIndex = 6;
             this.showPass_Check.Text = "Show password";
             this.showPass_Check.UseVisualStyleBackColor = true;
+            this.showPass_Check.CheckedChanged += new System.EventHandler(this.showPass_Check_CheckedChanged);
             // 
             // Administrator
             // 
