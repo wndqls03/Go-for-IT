@@ -67,7 +67,10 @@ namespace SWD606
             if (_userRepository.IsValidUser(username, password))
             {
                 MessageBox.Show("Login Successful");
+                Employee_Dashboard employee_Dashboard = new Employee_Dashboard();
                 this.Hide();
+                employee_Dashboard.Show();
+                this.Close();
             }
             else
             {
