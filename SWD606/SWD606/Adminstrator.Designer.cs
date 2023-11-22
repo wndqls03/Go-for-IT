@@ -36,11 +36,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.access_Btn = new System.Windows.Forms.Button();
             this.showPass_Check = new System.Windows.Forms.CheckBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
+            this.panel1.Controls.Add(this.label4);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -80,6 +83,7 @@
             this.adminpass_Text.Location = new System.Drawing.Point(447, 250);
             this.adminpass_Text.Multiline = true;
             this.adminpass_Text.Name = "adminpass_Text";
+            this.adminpass_Text.PasswordChar = '*';
             this.adminpass_Text.Size = new System.Drawing.Size(239, 26);
             this.adminpass_Text.TabIndex = 3;
             // 
@@ -95,7 +99,7 @@
             // 
             // access_Btn
             // 
-            this.access_Btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
+            this.access_Btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(61)))), ((int)(((byte)(152)))));
             this.access_Btn.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.access_Btn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.access_Btn.Location = new System.Drawing.Point(447, 349);
@@ -118,6 +122,17 @@
             this.showPass_Check.UseVisualStyleBackColor = true;
             this.showPass_Check.CheckedChanged += new System.EventHandler(this.showPass_Check_CheckedChanged);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Franklin Gothic Medium", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label4.Location = new System.Drawing.Point(78, 142);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(141, 37);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Welcome";
+            // 
             // Administrator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -135,6 +150,8 @@
             this.Name = "Administrator";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Administrator";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -150,5 +167,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button access_Btn;
         private System.Windows.Forms.CheckBox showPass_Check;
+        private System.Windows.Forms.Label label4;
     }
 }

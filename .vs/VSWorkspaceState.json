@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SWD606",
+    "\\SWD606\\SWD606"
   ],
-  "SelectedNode": "\\SWD606.sln",
+  "SelectedNode": "\\SWD606\\SWD606\\Adminstrator.cs",
   "PreviewInSolutionExplorer": false
 }
