@@ -14,6 +14,7 @@ namespace SWD606
     {
         public Start_page()
         {
+            //try//
             InitializeComponent();
         }
 
