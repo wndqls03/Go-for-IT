@@ -16,11 +16,11 @@ namespace SWD606
         bool IsValidUser(string username, string password);
     }
    
-    public partial class Login : Form
+    public partial class Employee : Form
     {
         private IUserRepository _userRepository;
  
-        public Login()
+        public Employee()
         {
             InitializeComponent();
             password_text.PasswordChar = '*';

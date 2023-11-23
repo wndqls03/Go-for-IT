@@ -1,6 +1,6 @@
 ﻿namespace SWD606
 {
-    partial class Login
+    partial class Employee
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Employee));
             this.ID_text = new System.Windows.Forms.TextBox();
             this.password_text = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -145,7 +145,7 @@
             this.showPass_Check.UseVisualStyleBackColor = true;
             this.showPass_Check.CheckedChanged += new System.EventHandler(this.showPass_Check_CheckedChanged);
             // 
-            // Login
+            // Employee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -159,7 +159,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.password_text);
             this.Controls.Add(this.ID_text);
-            this.Name = "Login";
+            this.Name = "Employee";
             this.Text = "Login";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

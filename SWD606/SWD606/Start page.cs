@@ -20,7 +20,7 @@ namespace SWD606
 
         private void emp_Btn_Click(object sender, EventArgs e)
         {
-            Login login = new Login();
+            Employee login = new Employee();
             this.Hide();
             login.ShowDialog();
             this.Close();

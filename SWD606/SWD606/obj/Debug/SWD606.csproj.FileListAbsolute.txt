@@ -4,7 +4,6 @@ C:\Users\HWACHAN LEE\Source\Repos\Go-for-IT\SWD606\SWD606\bin\Debug\SWD606.pdb
 C:\Users\HWACHAN LEE\Source\Repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.csproj.AssemblyReference.cache
 C:\Users\HWACHAN LEE\Source\Repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.csproj.SuggestedBindingRedirects.cache
 C:\Users\HWACHAN LEE\Source\Repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.Administrator.resources
-C:\Users\HWACHAN LEE\Source\Repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.Login.resources
 C:\Users\HWACHAN LEE\Source\Repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.Properties.Resources.resources
 C:\Users\HWACHAN LEE\Source\Repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.Start_page.resources
 C:\Users\HWACHAN LEE\Source\Repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.csproj.GenerateResource.cache
@@ -23,3 +22,4 @@ C:\Users\Jongeun Lee\source\repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.cspro
 C:\Users\Jongeun Lee\source\repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.csproj.CoreCompileInputs.cache
 C:\Users\Jongeun Lee\source\repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.exe
 C:\Users\Jongeun Lee\source\repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.pdb
+C:\Users\HWACHAN LEE\Source\Repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.Employee.resources
