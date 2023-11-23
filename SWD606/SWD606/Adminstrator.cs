@@ -69,7 +69,7 @@ namespace SWD606
                 
                 Admin_Dashboard adminDashboardForm = new Admin_Dashboard();
                 this.Hide();
-                adminDashboardForm.Show();
+                adminDashboardForm.Showdialog();
                 this.Close();
             }
             else
