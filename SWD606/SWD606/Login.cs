@@ -19,10 +19,11 @@ namespace SWD606
     public partial class Login : Form
     {
         private IUserRepository _userRepository;
-
+ 
         public Login()
         {
             InitializeComponent();
+            password_text.PasswordChar = '*';
             _userRepository = new SqlUserRepository("Data Source=(localdb)\\Local;Initial Catalog=Customer;Integrated Security=True");
 
         }
@@ -105,6 +106,11 @@ namespace SWD606
                     }
                 }
             }
+        }
+
+        private void showPass_Check_CheckedChanged(object sender, EventArgs e)
+        {
+            password_text.PasswordChar = showPass_Check.Checked ? '\0' : '*';
         }
     }
 }
