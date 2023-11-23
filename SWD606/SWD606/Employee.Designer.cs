@@ -1,6 +1,6 @@
 ﻿namespace SWD606
 {
-    partial class Login
+    partial class Employee
     {
         /// <summary>
         /// Required designer variable.
@@ -28,18 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Employee));
             this.ID_text = new System.Windows.Forms.TextBox();
             this.password_text = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.login_Btn = new System.Windows.Forms.Button();
-            this.signup_Btn = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.showPass_Check = new System.Windows.Forms.CheckBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -84,25 +83,13 @@
             this.login_Btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
             this.login_Btn.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
             this.login_Btn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.login_Btn.Location = new System.Drawing.Point(447, 349);
+            this.login_Btn.Location = new System.Drawing.Point(471, 365);
             this.login_Btn.Name = "login_Btn";
             this.login_Btn.Size = new System.Drawing.Size(99, 33);
             this.login_Btn.TabIndex = 4;
             this.login_Btn.Text = "Login";
             this.login_Btn.UseVisualStyleBackColor = false;
             this.login_Btn.Click += new System.EventHandler(this.login_Btn_Click);
-            // 
-            // signup_Btn
-            // 
-            this.signup_Btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
-            this.signup_Btn.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.signup_Btn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.signup_Btn.Location = new System.Drawing.Point(447, 393);
-            this.signup_Btn.Name = "signup_Btn";
-            this.signup_Btn.Size = new System.Drawing.Size(99, 33);
-            this.signup_Btn.TabIndex = 5;
-            this.signup_Btn.Text = "Sign up";
-            this.signup_Btn.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
@@ -114,6 +101,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(297, 450);
             this.panel1.TabIndex = 6;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(85, 214);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(141, 143);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
             // 
             // label4
             // 
@@ -146,18 +143,9 @@
             this.showPass_Check.TabIndex = 8;
             this.showPass_Check.Text = "Show password";
             this.showPass_Check.UseVisualStyleBackColor = true;
+            this.showPass_Check.CheckedChanged += new System.EventHandler(this.showPass_Check_CheckedChanged);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(85, 214);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(141, 143);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
-            // 
-            // Login
+            // Employee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -166,13 +154,12 @@
             this.Controls.Add(this.showPass_Check);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.signup_Btn);
             this.Controls.Add(this.login_Btn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.password_text);
             this.Controls.Add(this.ID_text);
-            this.Name = "Login";
+            this.Name = "Employee";
             this.Text = "Login";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -189,7 +176,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button login_Btn;
-        private System.Windows.Forms.Button signup_Btn;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;

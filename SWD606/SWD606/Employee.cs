@@ -16,13 +16,14 @@ namespace SWD606
         bool IsValidUser(string username, string password);
     }
    
-    public partial class Login : Form
+    public partial class Employee : Form
     {
         private IUserRepository _userRepository;
-
-        public Login()
+ 
+        public Employee()
         {
             InitializeComponent();
+            password_text.PasswordChar = '*';
             _userRepository = new SqlUserRepository("Data Source=(localdb)\\Local;Initial Catalog=Customer;Integrated Security=True");
 
         }
@@ -105,6 +106,11 @@ namespace SWD606
                     }
                 }
             }
+        }
+
+        private void showPass_Check_CheckedChanged(object sender, EventArgs e)
+        {
+            password_text.PasswordChar = showPass_Check.Checked ? '\0' : '*';
         }
     }
 }
