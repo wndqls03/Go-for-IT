@@ -56,7 +56,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.Sra = new System.Windows.Forms.Label();
-            this.stat_Text = new System.Windows.Forms.TextBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -299,12 +299,19 @@
             this.Sra.TabIndex = 29;
             this.Sra.Text = "Status";
             // 
-            // stat_Text
+            // listBox1
             // 
-            this.stat_Text.Location = new System.Drawing.Point(420, 508);
-            this.stat_Text.Name = "stat_Text";
-            this.stat_Text.Size = new System.Drawing.Size(100, 21);
-            this.stat_Text.TabIndex = 30;
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 12;
+            this.listBox1.Items.AddRange(new object[] {
+            "Front End",
+            "Project Manager",
+            "Data Analysist",
+            "Back End"});
+            this.listBox1.Location = new System.Drawing.Point(420, 508);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(100, 16);
+            this.listBox1.TabIndex = 30;
             // 
             // Admim_Emp_Management
             // 
@@ -312,7 +319,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1084, 561);
-            this.Controls.Add(this.stat_Text);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.Sra);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.posi_Text);
@@ -380,6 +387,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label Sra;
-        private System.Windows.Forms.TextBox stat_Text;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
