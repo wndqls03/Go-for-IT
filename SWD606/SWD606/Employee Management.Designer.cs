@@ -41,7 +41,6 @@
             this.add_Btn = new System.Windows.Forms.Button();
             this.del_Btn = new System.Windows.Forms.Button();
             this.up_Btn = new System.Windows.Forms.Button();
-            this.sear_Btn = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -69,9 +68,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(20, 297);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 12);
+            this.label1.Size = new System.Drawing.Size(77, 12);
             this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
+            this.label1.Text = "Employee ID";
             // 
             // label2
             // 
@@ -175,16 +174,6 @@
             this.up_Btn.UseVisualStyleBackColor = true;
             this.up_Btn.Click += new System.EventHandler(this.up_Btn_Click);
             // 
-            // sear_Btn
-            // 
-            this.sear_Btn.Location = new System.Drawing.Point(733, 457);
-            this.sear_Btn.Name = "sear_Btn";
-            this.sear_Btn.Size = new System.Drawing.Size(75, 23);
-            this.sear_Btn.TabIndex = 13;
-            this.sear_Btn.Text = "Search";
-            this.sear_Btn.UseVisualStyleBackColor = true;
-            this.sear_Btn.Click += new System.EventHandler(this.sear_Btn_Click);
-            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(1012, 508);
@@ -196,14 +185,14 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(64, 294);
+            this.textBox1.Location = new System.Drawing.Point(103, 294);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 21);
             this.textBox1.TabIndex = 15;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(64, 325);
+            this.textBox2.Location = new System.Drawing.Point(103, 321);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 21);
             this.textBox2.TabIndex = 16;
@@ -272,7 +261,6 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.sear_Btn);
             this.Controls.Add(this.up_Btn);
             this.Controls.Add(this.del_Btn);
             this.Controls.Add(this.add_Btn);
@@ -309,7 +297,6 @@
         private System.Windows.Forms.Button add_Btn;
         private System.Windows.Forms.Button del_Btn;
         private System.Windows.Forms.Button up_Btn;
-        private System.Windows.Forms.Button sear_Btn;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;

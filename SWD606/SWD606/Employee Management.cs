@@ -31,10 +31,5 @@ namespace SWD606
         {
 
         }
-
-        private void sear_Btn_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
