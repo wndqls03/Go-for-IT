@@ -52,11 +52,11 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.sal_Text = new System.Windows.Forms.TextBox();
-            this.posi_Text = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.Sra = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.posi_List = new System.Windows.Forms.ListBox();
+            this.status_List = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -262,13 +262,6 @@
             this.sal_Text.Size = new System.Drawing.Size(100, 21);
             this.sal_Text.TabIndex = 26;
             // 
-            // posi_Text
-            // 
-            this.posi_Text.Location = new System.Drawing.Point(420, 473);
-            this.posi_Text.Name = "posi_Text";
-            this.posi_Text.Size = new System.Drawing.Size(100, 21);
-            this.posi_Text.TabIndex = 27;
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
@@ -299,19 +292,31 @@
             this.Sra.TabIndex = 29;
             this.Sra.Text = "Status";
             // 
-            // listBox1
+            // posi_List
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 12;
-            this.listBox1.Items.AddRange(new object[] {
+            this.posi_List.FormattingEnabled = true;
+            this.posi_List.ItemHeight = 12;
+            this.posi_List.Items.AddRange(new object[] {
             "Front End",
             "Project Manager",
             "Data Analysist",
             "Back End"});
-            this.listBox1.Location = new System.Drawing.Point(420, 508);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(100, 16);
-            this.listBox1.TabIndex = 30;
+            this.posi_List.Location = new System.Drawing.Point(420, 473);
+            this.posi_List.Name = "posi_List";
+            this.posi_List.Size = new System.Drawing.Size(100, 16);
+            this.posi_List.TabIndex = 30;
+            // 
+            // status_List
+            // 
+            this.status_List.FormattingEnabled = true;
+            this.status_List.ItemHeight = 12;
+            this.status_List.Items.AddRange(new object[] {
+            "Active",
+            "Inactive"});
+            this.status_List.Location = new System.Drawing.Point(420, 508);
+            this.status_List.Name = "status_List";
+            this.status_List.Size = new System.Drawing.Size(100, 16);
+            this.status_List.TabIndex = 31;
             // 
             // Admim_Emp_Management
             // 
@@ -319,10 +324,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1084, 561);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.status_List);
+            this.Controls.Add(this.posi_List);
             this.Controls.Add(this.Sra);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.posi_Text);
             this.Controls.Add(this.sal_Text);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -383,10 +388,10 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox sal_Text;
-        private System.Windows.Forms.TextBox posi_Text;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label Sra;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox posi_List;
+        private System.Windows.Forms.ListBox status_List;
     }
 }
