@@ -55,6 +55,8 @@
             this.posi_Text = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
+            this.Sra = new System.Windows.Forms.Label();
+            this.stat_Text = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -288,11 +290,30 @@
             this.label12.TabIndex = 29;
             this.label12.Text = "Employee Management";
             // 
+            // Sra
+            // 
+            this.Sra.AutoSize = true;
+            this.Sra.Location = new System.Drawing.Point(354, 508);
+            this.Sra.Name = "Sra";
+            this.Sra.Size = new System.Drawing.Size(40, 12);
+            this.Sra.TabIndex = 29;
+            this.Sra.Text = "Status";
+            // 
+            // stat_Text
+            // 
+            this.stat_Text.Location = new System.Drawing.Point(420, 508);
+            this.stat_Text.Name = "stat_Text";
+            this.stat_Text.Size = new System.Drawing.Size(100, 21);
+            this.stat_Text.TabIndex = 30;
+            // 
             // Admim_Emp_Management
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1084, 561);
+            this.Controls.Add(this.stat_Text);
+            this.Controls.Add(this.Sra);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.posi_Text);
             this.Controls.Add(this.sal_Text);
@@ -358,5 +379,7 @@
         private System.Windows.Forms.TextBox posi_Text;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label Sra;
+        private System.Windows.Forms.TextBox stat_Text;
     }
 }
