@@ -76,12 +76,6 @@
     <Compile Include="Employee.Designer.cs">
       <DependentUpon>Employee.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Leave Management.cs">
       <SubType>Form</SubType>
     </Compile>

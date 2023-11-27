@@ -287,6 +287,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.panel1.Controls.Add(this.label12);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -297,9 +298,11 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(20, 16);
+            this.label12.Font = new System.Drawing.Font("Franklin Gothic Medium", 8F);
+            this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label12.Location = new System.Drawing.Point(19, 12);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(140, 12);
+            this.label12.Size = new System.Drawing.Size(121, 15);
             this.label12.TabIndex = 29;
             this.label12.Text = "Employee Management";
             // 
