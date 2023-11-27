@@ -70,7 +70,7 @@ namespace SWD606
                 MessageBox.Show("Login Successful");
                 Employee_Dashboard employee_Dashboard = new Employee_Dashboard();
                 this.Hide();
-                employee_Dashboard.Showdialog();
+                employee_Dashboard.ShowDialog();
                 this.Close();
             }
             else

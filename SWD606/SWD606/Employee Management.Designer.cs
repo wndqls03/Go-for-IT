@@ -32,7 +32,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -42,19 +41,18 @@
             this.del_Btn = new System.Windows.Forms.Button();
             this.up_Btn = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.empID_Text = new System.Windows.Forms.TextBox();
+            this.empName_Text = new System.Windows.Forms.TextBox();
+            this.age_Text = new System.Windows.Forms.TextBox();
+            this.userNa_Text = new System.Windows.Forms.TextBox();
+            this.pass_Text = new System.Windows.Forms.TextBox();
+            this.address_Text = new System.Windows.Forms.TextBox();
+            this.gen_Text = new System.Windows.Forms.TextBox();
+            this.num_Text = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.sal_Text = new System.Windows.Forms.TextBox();
+            this.posi_Text = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -97,19 +95,10 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Age";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(20, 438);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(39, 12);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Name";
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(20, 473);
+            this.label5.Location = new System.Drawing.Point(20, 438);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(63, 12);
             this.label5.TabIndex = 5;
@@ -118,7 +107,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(20, 508);
+            this.label6.Location = new System.Drawing.Point(20, 473);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(62, 12);
             this.label6.TabIndex = 6;
@@ -190,68 +179,61 @@
             this.button1.Text = "뒤로가기 이미지 넣을거임";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // empID_Text
             // 
-            this.textBox1.Location = new System.Drawing.Point(126, 327);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 21);
-            this.textBox1.TabIndex = 15;
+            this.empID_Text.Location = new System.Drawing.Point(126, 327);
+            this.empID_Text.Name = "empID_Text";
+            this.empID_Text.Size = new System.Drawing.Size(100, 21);
+            this.empID_Text.TabIndex = 15;
             // 
-            // textBox2
+            // empName_Text
             // 
-            this.textBox2.Location = new System.Drawing.Point(126, 368);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 21);
-            this.textBox2.TabIndex = 16;
+            this.empName_Text.Location = new System.Drawing.Point(126, 368);
+            this.empName_Text.Name = "empName_Text";
+            this.empName_Text.Size = new System.Drawing.Size(100, 21);
+            this.empName_Text.TabIndex = 16;
             // 
-            // textBox3
+            // age_Text
             // 
-            this.textBox3.Location = new System.Drawing.Point(126, 403);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 21);
-            this.textBox3.TabIndex = 17;
+            this.age_Text.Location = new System.Drawing.Point(126, 403);
+            this.age_Text.Name = "age_Text";
+            this.age_Text.Size = new System.Drawing.Size(100, 21);
+            this.age_Text.TabIndex = 17;
             // 
-            // textBox4
+            // userNa_Text
             // 
-            this.textBox4.Location = new System.Drawing.Point(126, 438);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 21);
-            this.textBox4.TabIndex = 18;
+            this.userNa_Text.Location = new System.Drawing.Point(126, 438);
+            this.userNa_Text.Name = "userNa_Text";
+            this.userNa_Text.Size = new System.Drawing.Size(100, 21);
+            this.userNa_Text.TabIndex = 18;
             // 
-            // textBox5
+            // pass_Text
             // 
-            this.textBox5.Location = new System.Drawing.Point(126, 473);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 21);
-            this.textBox5.TabIndex = 19;
+            this.pass_Text.Location = new System.Drawing.Point(126, 473);
+            this.pass_Text.Name = "pass_Text";
+            this.pass_Text.Size = new System.Drawing.Size(100, 21);
+            this.pass_Text.TabIndex = 19;
             // 
-            // textBox6
+            // address_Text
             // 
-            this.textBox6.Location = new System.Drawing.Point(126, 508);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 21);
-            this.textBox6.TabIndex = 20;
+            this.address_Text.Location = new System.Drawing.Point(420, 327);
+            this.address_Text.Name = "address_Text";
+            this.address_Text.Size = new System.Drawing.Size(100, 21);
+            this.address_Text.TabIndex = 21;
             // 
-            // textBox7
+            // gen_Text
             // 
-            this.textBox7.Location = new System.Drawing.Point(420, 327);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 21);
-            this.textBox7.TabIndex = 21;
+            this.gen_Text.Location = new System.Drawing.Point(420, 359);
+            this.gen_Text.Name = "gen_Text";
+            this.gen_Text.Size = new System.Drawing.Size(100, 21);
+            this.gen_Text.TabIndex = 22;
             // 
-            // textBox8
+            // num_Text
             // 
-            this.textBox8.Location = new System.Drawing.Point(420, 359);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 21);
-            this.textBox8.TabIndex = 22;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(420, 394);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 21);
-            this.textBox9.TabIndex = 23;
+            this.num_Text.Location = new System.Drawing.Point(420, 394);
+            this.num_Text.Name = "num_Text";
+            this.num_Text.Size = new System.Drawing.Size(100, 21);
+            this.num_Text.TabIndex = 23;
             // 
             // label10
             // 
@@ -271,19 +253,19 @@
             this.label11.TabIndex = 25;
             this.label11.Text = "Position";
             // 
-            // textBox10
+            // sal_Text
             // 
-            this.textBox10.Location = new System.Drawing.Point(420, 434);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(100, 21);
-            this.textBox10.TabIndex = 26;
+            this.sal_Text.Location = new System.Drawing.Point(420, 434);
+            this.sal_Text.Name = "sal_Text";
+            this.sal_Text.Size = new System.Drawing.Size(100, 21);
+            this.sal_Text.TabIndex = 26;
             // 
-            // textBox11
+            // posi_Text
             // 
-            this.textBox11.Location = new System.Drawing.Point(420, 473);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(100, 21);
-            this.textBox11.TabIndex = 27;
+            this.posi_Text.Location = new System.Drawing.Point(420, 473);
+            this.posi_Text.Name = "posi_Text";
+            this.posi_Text.Size = new System.Drawing.Size(100, 21);
+            this.posi_Text.TabIndex = 27;
             // 
             // panel1
             // 
@@ -312,19 +294,18 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1084, 561);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.posi_Text);
+            this.Controls.Add(this.sal_Text);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.num_Text);
+            this.Controls.Add(this.gen_Text);
+            this.Controls.Add(this.address_Text);
+            this.Controls.Add(this.pass_Text);
+            this.Controls.Add(this.userNa_Text);
+            this.Controls.Add(this.age_Text);
+            this.Controls.Add(this.empName_Text);
+            this.Controls.Add(this.empID_Text);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.up_Btn);
             this.Controls.Add(this.del_Btn);
@@ -334,7 +315,6 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -355,7 +335,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
@@ -365,19 +344,18 @@
         private System.Windows.Forms.Button del_Btn;
         private System.Windows.Forms.Button up_Btn;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox empID_Text;
+        private System.Windows.Forms.TextBox empName_Text;
+        private System.Windows.Forms.TextBox age_Text;
+        private System.Windows.Forms.TextBox userNa_Text;
+        private System.Windows.Forms.TextBox pass_Text;
+        private System.Windows.Forms.TextBox address_Text;
+        private System.Windows.Forms.TextBox gen_Text;
+        private System.Windows.Forms.TextBox num_Text;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox sal_Text;
+        private System.Windows.Forms.TextBox posi_Text;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label12;
     }
