@@ -28,12 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.label12 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(20, 16);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(117, 12);
+            this.label12.TabIndex = 29;
+            this.label12.Text = "Leave Management";
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.label12);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1084, 41);
+            this.panel1.TabIndex = 29;
+            // 
+            // Leave_Management
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1084, 561);
+            this.Controls.Add(this.panel1);
+            this.Name = "Leave_Management";
             this.Text = "Leave_Management";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Panel panel1;
     }
 }

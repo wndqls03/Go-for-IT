@@ -114,6 +114,9 @@
     <EmbeddedResource Include="Employee.resx">
       <DependentUpon>Employee.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Leave Management.resx">
+      <DependentUpon>Leave Management.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -123,6 +126,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Salary Management.resx">
+      <DependentUpon>Salary Management.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Start page.resx">
       <DependentUpon>Start page.cs</DependentUpon>
     </EmbeddedResource>
