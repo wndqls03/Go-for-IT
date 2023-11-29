@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -58,7 +57,6 @@
             this.posi_Combo = new System.Windows.Forms.ComboBox();
             this.status_Combo = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -354,12 +352,6 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.exit_Btn_Click);
             // 
-            // imageList1
-            // 
-            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            // 
             // Admim_Emp_Management
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -435,6 +427,5 @@
         private System.Windows.Forms.ComboBox posi_Combo;
         private System.Windows.Forms.ComboBox status_Combo;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ImageList imageList1;
     }
 }
