@@ -16,6 +16,7 @@ namespace SWD606
         public Admim_Emp_Management()
         {
             InitializeComponent();
+            DisplayEmployeeData();
         }
 
         private void add_Btn_Click(object sender, EventArgs e)
@@ -32,10 +33,10 @@ namespace SWD606
         {
 
         }
-        private void DisplayEmployData()
+        private void DisplayEmployeeData() // Renamed the method for clarity
         {
             string query = "SELECT * FROM Customer";
-            string connectionString = "Data Source=(localdb)\\Local;Initial Catalog=Customer;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False";
+            string connectionString = "Data Source=(localdb)\\Local;Initial Catalog=Customer;Integrated Security=True;Connect Timeout=30";
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 using (SqlCommand command = new SqlCommand(query, connection))
@@ -48,7 +49,14 @@ namespace SWD606
                         DataTable dataTable = new DataTable();
                         adapter.Fill(dataTable);
 
-                        dataGridView1.DataSource = dataTable; // Bind the DataGridView to the DataTable
+                        if (dataTable.Rows.Count > 0)
+                        {
+                            dataGridView1.DataSource = dataTable;
+                        }
+                        else
+                        {
+                            MessageBox.Show("No data found.");
+                        }
                     }
                     catch (Exception ex)
                     {
@@ -57,9 +65,12 @@ namespace SWD606
                 }
             }
         }
+    
+        
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
     }
 }
+
