@@ -70,6 +70,8 @@ namespace SWD606
                 Admin_Dashboard adminDashboardForm = new Admin_Dashboard();
                 this.Hide();
                 adminDashboardForm.ShowDialog();
+                Admim_Emp_Management adminManagement = new Admim_Emp_Management();
+                    adminManagement.ShowDialog();
                 this.Close();
             }
             else
