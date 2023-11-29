@@ -67,11 +67,9 @@ namespace SWD606
             {
                 MessageBox.Show("Login Successful");
                 
-                Admin_Dashboard adminDashboardForm = new Admin_Dashboard();
                 this.Hide();
-                adminDashboardForm.ShowDialog();
                 Admim_Emp_Management adminManagement = new Admim_Emp_Management();
-                    adminManagement.ShowDialog();
+                adminManagement.ShowDialog();
                 this.Close();
             }
             else

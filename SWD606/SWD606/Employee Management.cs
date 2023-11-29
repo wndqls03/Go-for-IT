@@ -29,11 +29,11 @@ namespace SWD606
                 string username = userNa_Text.Text;
                 string password = pass_Text.Text;
                 string address = address_Text.Text;
-                string gender = gen_Text.Text;
+                string gender = gen_Combo.Text;
                 string contactNumber = num_Text.Text;
                 decimal salary = Convert.ToDecimal(sal_Text.Text);
-                string position = posi_List.SelectedItem != null ? posi_List.SelectedItem.ToString() : "";
-                string leaveStatus = status_List.SelectedItem != null ? status_List.SelectedItem.ToString() : "";
+                string position = posi_Combo.Text;
+                string leaveStatus = status_Combo.Text;
 
                 string query = "INSERT INTO Customer (EmployeeID, EmployeeName, Age, Username, Password, Address, Gender, ContactNumber, Salary, Position, LeaveStatus) " +
                                "VALUES (@EmployeeID, @EmployeeName, @Age, @Username, @Password, @Address, @Gender, @ContactNumber, @Salary, @Position, @LeaveStatus)";
@@ -125,11 +125,11 @@ namespace SWD606
                 string username = userNa_Text.Text;
                 string password = pass_Text.Text;
                 string address = address_Text.Text;
-                string gender = gen_Text.Text;
+                string gender = gen_Combo.Text;
                 string contactNumber = num_Text.Text;
                 decimal salary = Convert.ToDecimal(sal_Text.Text);
-                string position = posi_List.SelectedItem != null ? posi_List.SelectedItem.ToString() : "";
-                string leaveStatus = status_List.SelectedItem != null ? status_List.SelectedItem.ToString() : "";
+                string position = posi_Combo.Text;
+                string leaveStatus = status_Combo.Text;
 
                 if (string.IsNullOrWhiteSpace(position))  // Check if position is null or empty
                 {
