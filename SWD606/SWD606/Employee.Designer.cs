@@ -45,6 +45,7 @@
             // 
             // ID_text
             // 
+            this.ID_text.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ID_text.Location = new System.Drawing.Point(447, 142);
             this.ID_text.Name = "ID_text";
             this.ID_text.Size = new System.Drawing.Size(239, 21);
@@ -52,6 +53,7 @@
             // 
             // password_text
             // 
+            this.password_text.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.password_text.Location = new System.Drawing.Point(447, 250);
             this.password_text.Name = "password_text";
             this.password_text.PasswordChar = '*';

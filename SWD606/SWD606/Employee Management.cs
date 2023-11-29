@@ -223,6 +223,11 @@ namespace SWD606
         {
 
         }
+
+        private void exit_Btn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
 

@@ -37,3 +37,6 @@ C:\Users\ODYSSEY\Source\Repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.csproj.Ge
 C:\Users\ODYSSEY\Source\Repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.csproj.CoreCompileInputs.cache
 C:\Users\ODYSSEY\Source\Repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.exe
 C:\Users\ODYSSEY\Source\Repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.pdb
+C:\Users\ODYSSEY\Source\Repos\Go-for-IT\SWD606\SWD606\bin\Debug\SWD606.exe.config
+C:\Users\ODYSSEY\Source\Repos\Go-for-IT\SWD606\SWD606\bin\Debug\SWD606.exe
+C:\Users\ODYSSEY\Source\Repos\Go-for-IT\SWD606\SWD606\bin\Debug\SWD606.pdb
