@@ -13,6 +13,18 @@ namespace SWD606
 {
     public partial class Admim_Emp_Management : Form
     {
+        string empID;
+        string empName;
+        int age;
+        string username;
+        string password;
+        string address;
+        string gender;
+        string contactNumber;
+        decimal salary;
+        string position;
+        string leaveStatus;
+
         public Admim_Emp_Management()
         {
             InitializeComponent();
@@ -23,17 +35,17 @@ namespace SWD606
         {
             try
             {
-                string empID = empID_Text.Text;
-                string empName = empName_Text.Text;
-                int age = Convert.ToInt32(age_Text.Text);
-                string username = userNa_Text.Text;
-                string password = pass_Text.Text;
-                string address = address_Text.Text;
-                string gender = gen_Combo.Text;
-                string contactNumber = num_Text.Text;
-                decimal salary = Convert.ToDecimal(sal_Text.Text);
-                string position = posi_Combo.Text;
-                string leaveStatus = status_Combo.Text;
+                empID = empID_Text.Text;
+                empName = empName_Text.Text;
+                age = Convert.ToInt32(age_Text.Text);
+                username = userNa_Text.Text;
+                password = pass_Text.Text;
+                address = address_Text.Text;
+                gender = gen_Combo.Text;
+                contactNumber = num_Text.Text;
+                salary = Convert.ToDecimal(sal_Text.Text);
+                position = posi_Combo.Text;
+                leaveStatus = status_Combo.Text;
 
                 string query = "INSERT INTO Customer (EmployeeID, EmployeeName, Age, Username, Password, Address, Gender, ContactNumber, Salary, Position, LeaveStatus) " +
                                "VALUES (@EmployeeID, @EmployeeName, @Age, @Username, @Password, @Address, @Gender, @ContactNumber, @Salary, @Position, @LeaveStatus)";
@@ -81,7 +93,7 @@ namespace SWD606
         {
             try
             {
-                string empID = empID_Text.Text;
+                empID = empID_Text.Text;
 
                 string query = "DELETE FROM Customer WHERE EmployeeID = @EmployeeID";
 
@@ -119,17 +131,17 @@ namespace SWD606
         {
             try
             {
-                string empID = empID_Text.Text;
-                string empName = empName_Text.Text;
-                int age = Convert.ToInt32(age_Text.Text);
-                string username = userNa_Text.Text;
-                string password = pass_Text.Text;
-                string address = address_Text.Text;
-                string gender = gen_Combo.Text;
-                string contactNumber = num_Text.Text;
-                decimal salary = Convert.ToDecimal(sal_Text.Text);
-                string position = posi_Combo.Text;
-                string leaveStatus = status_Combo.Text;
+                empID = empID_Text.Text;
+                empName = empName_Text.Text;
+                age = Convert.ToInt32(age_Text.Text);
+                username = userNa_Text.Text;
+                password = pass_Text.Text;
+                address = address_Text.Text;
+                gender = gen_Combo.Text;
+                contactNumber = num_Text.Text;
+                salary = Convert.ToDecimal(sal_Text.Text);
+                position = posi_Combo.Text;
+                leaveStatus = status_Combo.Text;
 
                 if (string.IsNullOrWhiteSpace(position))  // Check if position is null or empty
                 {
@@ -218,12 +230,6 @@ namespace SWD606
             }
         }
     
-        
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
         private void exit_Btn_Click(object sender, EventArgs e)
         {
             Application.Exit();
