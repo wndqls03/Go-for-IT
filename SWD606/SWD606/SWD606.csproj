@@ -52,6 +52,18 @@
     <Compile Include="Employee Dashboard.Designer.cs">
       <DependentUpon>Employee Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Employee Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee Details.Designer.cs">
+      <DependentUpon>Employee Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee Grievances.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee Grievances.Designer.cs">
+      <DependentUpon>Employee Grievances.cs</DependentUpon>
+    </Compile>
     <Compile Include="Employee Management.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +75,18 @@
     </Compile>
     <Compile Include="Adminstrator.Designer.cs">
       <DependentUpon>Adminstrator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee Resignation Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee Resignation Form.Designer.cs">
+      <DependentUpon>Employee Resignation Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee Yearly Hoilday List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee Yearly Hoilday List.Designer.cs">
+      <DependentUpon>Employee Yearly Hoilday List.cs</DependentUpon>
     </Compile>
     <Compile Include="Employee.cs">
       <SubType>Form</SubType>
@@ -78,11 +102,26 @@
     <Compile Include="Start page.Designer.cs">
       <DependentUpon>Start page.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Employee Dashboard.resx">
+      <DependentUpon>Employee Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee Details.resx">
+      <DependentUpon>Employee Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee Grievances.resx">
+      <DependentUpon>Employee Grievances.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Employee Management.resx">
       <DependentUpon>Employee Management.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Adminstrator.resx">
       <DependentUpon>Adminstrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee Resignation Form.resx">
+      <DependentUpon>Employee Resignation Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee Yearly Hoilday List.resx">
+      <DependentUpon>Employee Yearly Hoilday List.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Employee.resx">
       <DependentUpon>Employee.cs</DependentUpon>
@@ -115,6 +154,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\power-off-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\이미지.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

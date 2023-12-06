@@ -40,3 +40,5 @@ C:\Users\ODYSSEY\Source\Repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.pdb
 C:\Users\ODYSSEY\Source\Repos\Go-for-IT\SWD606\SWD606\bin\Debug\SWD606.exe.config
 C:\Users\ODYSSEY\Source\Repos\Go-for-IT\SWD606\SWD606\bin\Debug\SWD606.exe
 C:\Users\ODYSSEY\Source\Repos\Go-for-IT\SWD606\SWD606\bin\Debug\SWD606.pdb
+C:\Users\HWACHAN LEE\Source\Repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.Admim_Emp_Management.resources
+C:\Users\HWACHAN LEE\source\repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.Employee_Dashboard.resources

@@ -16,5 +16,20 @@ namespace SWD606
         {
             InitializeComponent();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void Employee_Dashboard_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mydetails_btn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
