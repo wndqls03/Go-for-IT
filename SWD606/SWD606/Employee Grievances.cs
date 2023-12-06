@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -84,6 +85,19 @@ namespace SWD606
 
         private void view_Btn_Click(object sender, EventArgs e)
         {
+            ClearControls();
+            MessageBox.Show("Grievance sent successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void ClearControls()
+        {
+            // Clear content of textboxes
+            textBox1.Text = string.Empty;
+            textBox2.Text = string.Empty;
+            textBox3.Text = string.Empty;
+            textBox4.Text = string.Empty;
+            textBox5.Text = string.Empty;
+            // Clear other controls as needed
 
         }
     }

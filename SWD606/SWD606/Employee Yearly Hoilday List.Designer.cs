@@ -41,8 +41,9 @@
             this.panel1.Controls.Add(this.label12);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(954, 41);
+            this.panel1.Size = new System.Drawing.Size(1227, 68);
             this.panel1.TabIndex = 30;
             // 
             // label12
@@ -50,29 +51,33 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Franklin Gothic Medium", 8F);
             this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label12.Location = new System.Drawing.Point(19, 12);
+            this.label12.Location = new System.Drawing.Point(24, 20);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(121, 15);
+            this.label12.Size = new System.Drawing.Size(173, 21);
             this.label12.TabIndex = 29;
             this.label12.Text = "Employee Management";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::SWD606.Properties.Resources.이미지;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 40);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 67);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(954, 587);
+            this.pictureBox1.Size = new System.Drawing.Size(1227, 978);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 31;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Employee_Yearly_Hoilday_List
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(954, 630);
+            this.ClientSize = new System.Drawing.Size(1227, 1050);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Employee_Yearly_Hoilday_List";
             this.Text = "Employee_Yearly_Hoilday_List";
             this.panel1.ResumeLayout(false);

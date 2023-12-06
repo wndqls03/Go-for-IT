@@ -68,9 +68,11 @@ namespace SWD606
             if (_userRepository.IsValidUser(username, password))
             {
                 MessageBox.Show("Login Successful");
-                Employee_Dashboard employee_Dashboard = new Employee_Dashboard();
+
+                // Redirect to the user dashboard
+                Employee_Dashboard employeeDashboard = new Employee_Dashboard(username);
                 this.Hide();
-                employee_Dashboard.ShowDialog();
+                employeeDashboard.ShowDialog();
                 this.Close();
             }
             else
@@ -111,6 +113,11 @@ namespace SWD606
         private void showPass_Check_CheckedChanged(object sender, EventArgs e)
         {
             password_text.PasswordChar = showPass_Check.Checked ? '\0' : '*';
+        }
+
+        private void password_text_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

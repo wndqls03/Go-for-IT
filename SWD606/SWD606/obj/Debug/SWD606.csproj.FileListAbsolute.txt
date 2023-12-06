@@ -23,10 +23,7 @@ C:\Users\Jongeun Lee\source\repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.exe
 C:\Users\Jongeun Lee\source\repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.pdb
 C:\Users\HWACHAN LEE\Source\Repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.Employee.resources
 C:\Users\Jongeun Lee\source\repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.Admim_Emp_Management.resources
-C:\Users\Jongeun Lee\source\repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.Admin_Dashboard.resources
 C:\Users\Jongeun Lee\source\repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.Employee.resources
-C:\Users\Jongeun Lee\source\repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.Leave_Management.resources
-C:\Users\Jongeun Lee\source\repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.Salary_Management.resources
 C:\Users\ODYSSEY\Source\Repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.csproj.AssemblyReference.cache
 C:\Users\ODYSSEY\Source\Repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.Admim_Emp_Management.resources
 C:\Users\ODYSSEY\Source\Repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.Administrator.resources
@@ -42,3 +39,8 @@ C:\Users\ODYSSEY\Source\Repos\Go-for-IT\SWD606\SWD606\bin\Debug\SWD606.exe
 C:\Users\ODYSSEY\Source\Repos\Go-for-IT\SWD606\SWD606\bin\Debug\SWD606.pdb
 C:\Users\HWACHAN LEE\Source\Repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.Admim_Emp_Management.resources
 C:\Users\HWACHAN LEE\source\repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.Employee_Dashboard.resources
+C:\Users\Jongeun Lee\Source\Repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.Employee_Dashboard.resources
+C:\Users\Jongeun Lee\Source\Repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.Employee_Details.resources
+C:\Users\Jongeun Lee\Source\Repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.Employee_Grievances.resources
+C:\Users\Jongeun Lee\Source\Repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.Employee_Resignation_Form.resources
+C:\Users\Jongeun Lee\Source\Repos\Go-for-IT\SWD606\SWD606\obj\Debug\SWD606.Employee_Yearly_Hoilday_List.resources

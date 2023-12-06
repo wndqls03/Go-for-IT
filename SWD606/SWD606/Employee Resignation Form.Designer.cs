@@ -54,8 +54,9 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(882, 41);
+            this.panel1.Size = new System.Drawing.Size(1134, 68);
             this.panel1.TabIndex = 31;
             // 
             // label1
@@ -63,9 +64,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 16F);
             this.label1.ForeColor = System.Drawing.SystemColors.Info;
-            this.label1.Location = new System.Drawing.Point(310, 6);
+            this.label1.Location = new System.Drawing.Point(399, 10);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(282, 27);
+            this.label1.Size = new System.Drawing.Size(411, 39);
             this.label1.TabIndex = 32;
             this.label1.Text = "Employee Resignation Form";
             // 
@@ -73,9 +75,10 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.label7.Location = new System.Drawing.Point(12, 95);
+            this.label7.Location = new System.Drawing.Point(15, 158);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(86, 17);
+            this.label7.Size = new System.Drawing.Size(124, 24);
             this.label7.TabIndex = 41;
             this.label7.Text = "Employee ID";
             // 
@@ -83,9 +86,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(12, 54);
+            this.label3.Location = new System.Drawing.Point(15, 90);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(190, 19);
+            this.label3.Size = new System.Drawing.Size(282, 29);
             this.label3.TabIndex = 42;
             this.label3.Text = "Employee Information";
             // 
@@ -93,9 +97,10 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.label8.Location = new System.Drawing.Point(13, 136);
+            this.label8.Location = new System.Drawing.Point(17, 227);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(107, 17);
+            this.label8.Size = new System.Drawing.Size(155, 24);
             this.label8.TabIndex = 46;
             this.label8.Text = "Employee Name";
             // 
@@ -103,9 +108,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.label2.Location = new System.Drawing.Point(12, 176);
+            this.label2.Location = new System.Drawing.Point(15, 293);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(119, 17);
+            this.label2.Size = new System.Drawing.Size(173, 24);
             this.label2.TabIndex = 45;
             this.label2.Text = "Employee Position";
             // 
@@ -113,9 +119,10 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.label6.Location = new System.Drawing.Point(12, 214);
+            this.label6.Location = new System.Drawing.Point(15, 357);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(155, 17);
+            this.label6.Size = new System.Drawing.Size(228, 24);
             this.label6.TabIndex = 44;
             this.label6.Text = "Employee Email Address";
             // 
@@ -123,9 +130,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.label5.Location = new System.Drawing.Point(13, 299);
+            this.label5.Location = new System.Drawing.Point(17, 498);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(156, 17);
+            this.label5.Size = new System.Drawing.Size(226, 24);
             this.label5.TabIndex = 43;
             this.label5.Text = "Reason For Resignation:";
             // 
@@ -133,18 +141,20 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.label4.Location = new System.Drawing.Point(13, 258);
+            this.label4.Location = new System.Drawing.Point(17, 430);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(164, 17);
+            this.label4.Size = new System.Drawing.Size(234, 24);
             this.label4.TabIndex = 47;
             this.label4.Text = "Employee Phone Number";
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(16, 330);
+            this.textBox5.Location = new System.Drawing.Point(21, 550);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(854, 180);
+            this.textBox5.Size = new System.Drawing.Size(1097, 297);
             this.textBox5.TabIndex = 48;
             this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
@@ -152,65 +162,79 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold);
-            this.checkBox1.Location = new System.Drawing.Point(577, 526);
+            this.checkBox1.Location = new System.Drawing.Point(742, 877);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(293, 21);
+            this.checkBox1.Size = new System.Drawing.Size(428, 28);
             this.checkBox1.TabIndex = 50;
             this.checkBox1.Text = "I confirm that I requesting resignation";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // view_Btn
             // 
             this.view_Btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
             this.view_Btn.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
             this.view_Btn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.view_Btn.Location = new System.Drawing.Point(400, 562);
+            this.view_Btn.Location = new System.Drawing.Point(514, 937);
+            this.view_Btn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.view_Btn.Name = "view_Btn";
-            this.view_Btn.Size = new System.Drawing.Size(99, 33);
+            this.view_Btn.Size = new System.Drawing.Size(127, 55);
             this.view_Btn.TabIndex = 51;
             this.view_Btn.Text = "Submit";
             this.view_Btn.UseVisualStyleBackColor = false;
+            this.view_Btn.Click += new System.EventHandler(this.view_Btn_Click);
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(190, 212);
+            this.textBox4.Location = new System.Drawing.Point(244, 353);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(138, 21);
+            this.textBox4.Size = new System.Drawing.Size(176, 26);
             this.textBox4.TabIndex = 55;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(190, 174);
+            this.textBox3.Location = new System.Drawing.Point(244, 290);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(138, 21);
+            this.textBox3.Size = new System.Drawing.Size(176, 26);
             this.textBox3.TabIndex = 54;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(190, 134);
+            this.textBox2.Location = new System.Drawing.Point(244, 223);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(138, 21);
+            this.textBox2.Size = new System.Drawing.Size(176, 26);
             this.textBox2.TabIndex = 53;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(190, 91);
+            this.textBox1.Location = new System.Drawing.Point(244, 152);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(138, 21);
+            this.textBox1.Size = new System.Drawing.Size(176, 26);
             this.textBox1.TabIndex = 52;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(190, 258);
+            this.textBox6.Location = new System.Drawing.Point(244, 430);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(138, 21);
+            this.textBox6.Size = new System.Drawing.Size(176, 26);
             this.textBox6.TabIndex = 56;
+            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // Employee_Resignation_Form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(882, 616);
+            this.ClientSize = new System.Drawing.Size(1134, 1027);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
@@ -227,8 +251,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Employee_Resignation_Form";
             this.Text = " ";
+            this.Load += new System.EventHandler(this.Employee_Resignation_Form_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
