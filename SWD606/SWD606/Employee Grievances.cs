@@ -85,17 +85,21 @@ namespace SWD606
 
         private void view_Btn_Click(object sender, EventArgs e)
         {
-            ClearControls();
-            MessageBox.Show("Grievance sent successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if (string.IsNullOrWhiteSpace(textBox5.Text))
+            {
+                MessageBox.Show("Please provide a grievance before sending.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                ClearControls();
+                MessageBox.Show("Grievance sent successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         private void ClearControls()
         {
             // Clear content of textboxes
-            textBox1.Text = string.Empty;
-            textBox2.Text = string.Empty;
-            textBox3.Text = string.Empty;
-            textBox4.Text = string.Empty;
+            
             textBox5.Text = string.Empty;
             // Clear other controls as needed
 

@@ -29,8 +29,15 @@ namespace SWD606
 
         private void view_Btn_Click(object sender, EventArgs e)
         {
-            ReloadPage();
-            MessageBox.Show("Resignation request successfully sent!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if (string.IsNullOrWhiteSpace(textBox5.Text))
+            {
+                MessageBox.Show("Please enter a reason for resignation.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                ReloadPage();
+                MessageBox.Show("Resignation request successfully sent!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         private void ReloadPage()
@@ -42,12 +49,9 @@ namespace SWD606
 
         private void ClearTextBoxes()
         {
-            textBox1.Text = string.Empty;
-            textBox2.Text = string.Empty;
-            textBox3.Text = string.Empty;
-            textBox4.Text = string.Empty;
+           
             textBox5.Text = string.Empty;
-            textBox6.Text = string.Empty;
+
         }
 
         private void ResetCheckBox()
@@ -82,6 +86,11 @@ namespace SWD606
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }
