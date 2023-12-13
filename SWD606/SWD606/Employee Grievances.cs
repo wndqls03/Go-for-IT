@@ -94,7 +94,7 @@ namespace SWD606
                 ClearControls();
                 MessageBox.Show("Grievance sent successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-        }
+        } ㅂ
 
         private void ClearControls()
         {
